@@ -1,12 +1,15 @@
 import AcmeLogo from '@/app/ui/acme-logo';
 import { ArrowRightIcon } from '@heroicons/react/24/outline';
 import Link from 'next/link';
+import styles from './ui/home.module.css'
+import Image from 'next/image';
 
 export default function Page() {
   return (
     <main className="flex min-h-screen flex-col p-6">
       <div className="flex h-20 shrink-0 items-end rounded-lg bg-blue-500 p-4 md:h-52">
         {/* <AcmeLogo /> */}
+        <div className={styles.shape}></div>
       </div>
       <div className="mt-4 flex grow flex-col gap-4 md:flex-row">
         <div className="flex flex-col justify-center gap-6 rounded-lg bg-gray-50 px-6 py-10 md:w-2/5 md:px-20">
@@ -28,6 +31,8 @@ export default function Page() {
           {/* Add Hero Images Here */}
         </div>
       </div>
+      <Image src='/hero-desktop.png' alt="screenshots of the dashboard" width={1000} height={750} className='hidden md:block'/>
+      <Image src='/hero-mobile.png' alt="screenshots of the dashboard" width={560} height={620} className='block md:hidden'/>
     </main>
   );
 }
