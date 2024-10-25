@@ -3,7 +3,8 @@
   "scripts": {
     "build": "next build",
     "dev": "next dev --turbo",
-    "start": "next start"
+    "start": "next start",
+    "seed": "tsx scripts/seed.ts"
   },
   "dependencies": {
     "@heroicons/react": "^2.1.4",
@@ -12,6 +13,7 @@
     "autoprefixer": "10.4.19",
     "bcrypt": "^5.1.1",
     "clsx": "^2.1.1",
+    "dotenv": "^16.4.5",
     "next": "^15.0.0",
     "next-auth": "5.0.0-beta.19",
     "postcss": "8.4.38",
@@ -26,7 +28,8 @@
     "@types/bcrypt": "^5.0.2",
     "@types/node": "20.14.8",
     "@types/react": "npm:types-react@19.0.0-rc.1",
-    "@types/react-dom": "npm:types-react-dom@19.0.0-rc.1"
+    "@types/react-dom": "npm:types-react-dom@19.0.0-rc.1",
+    "tsx": "^4.19.1"
   },
   "pnpm": {
     "overrides": {

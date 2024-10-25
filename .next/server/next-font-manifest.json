@@ -1,0 +1,22 @@
+{
+  "app": {
+    "[project]/app/page": [
+      "static/media/RrQfboBx_C5_XxrBbk_m3Lg-s.p.1e9a7dde.woff2"
+    ],
+    "[project]/app/dashboard/page": [
+      "static/media/RrQfboBx_C5_XxrBbk_m3Lg-s.p.1e9a7dde.woff2"
+    ],
+    "[project]/app/dashboard/costumer/page": [
+      "static/media/RrQfboBx_C5_XxrBbk_m3Lg-s.p.1e9a7dde.woff2"
+    ],
+    "[project]/app/dashboard/invoices/page": [
+      "static/media/RrQfboBx_C5_XxrBbk_m3Lg-s.p.1e9a7dde.woff2"
+    ],
+    "[project]/app/_not-found/page": [
+      "static/media/RrQfboBx_C5_XxrBbk_m3Lg-s.p.1e9a7dde.woff2"
+    ]
+  },
+  "appUsingSizeAdjust": true,
+  "pages": {},
+  "pagesUsingSizeAdjust": false
+}

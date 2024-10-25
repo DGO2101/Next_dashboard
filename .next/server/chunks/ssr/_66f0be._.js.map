@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["turbopack://[project]/app/layout.tsx"],"sourcesContent":["import { bizFont } from './ui/fonts'  // Primero importa la fuente\nimport './ui/global.css'\n\nexport default function RootLayout({\n  children,\n}: {\n  children: React.ReactNode;\n}) {\n  return (\n    <html lang=\"en\">\n      <body className={`${bizFont.className} antialiased`}>{children}</body>\n    </html>\n  );\n}\n"],"names":[],"mappings":";;;;AAAA,mPAAsC,4BAA4B;AAAlE;;;;AAGe,SAAS,WAAW,EACjC,QAAQ,EAGT;IACC,qBACE,ucAAC;QAAK,MAAK;kBACT,cAAA,ucAAC;YAAK,WAAW,GAAG,sLAAA,CAAA,UAAO,CAAC,SAAS,CAAC,YAAY,CAAC;sBAAG;;;;;;;;;;;AAG5D"}},
+    {"offset": {"line": 33, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 44, "column": 0}, "map": {"version":3,"sources":["turbopack://[project]/node_modules/.pnpm/next@15.0.0_react-dom@19.0.0-rc-cd22717c-20241013_react@19.0.0-rc-cd22717c-20241013__react@19.0.0-rc-cd22717c-20241013/node_modules/next/src/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.ts"],"sourcesContent":["module.exports = require('../../module.compiled').vendored[\n  'react-rsc'\n].ReactJsxDevRuntime\n"],"names":["module","exports","require","vendored","ReactJsxDevRuntime"],"mappings":";AAAAA,OAAOC,OAAO,GAAGC,QAAQ,oQAAyBC,QAAQ,CACxD,YACD,CAACC,kBAAkB"}},
+    {"offset": {"line": 46, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}
